@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: white;
+    color: rgb(255, 255, 255);
+}
+
+.first-section{
+    width: 80%;
+    padding: 0;
+    background-color: rgb(22, 20, 22);
+    margin: auto;
+}
+
+.button{
+    background-color: rgb(78, 187, 74);
+    border: none;
+    padding: 10px 10px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.second-section{
+    width: 80%;
+    margin: auto;
+    color: black;
+}
+
+.nav ul{
+    padding: 0;
+    list-style: none;
+}
+
+.nav a{
+    text-decoration: none;
+    float: left; 
+    color: teal;
+    padding-left: 50px;
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+
+.text-layer{
+    clear: both;
+    margin-bottom: 20px;
+}
+
+.second-section form{
+    width: 50%;
+    background-color: turquoise;
+    border: 1 px solid turquoise;
+}
+
+.second-section label{
+    margin-left: 5px;
+    display: block;
+}
+
+.second-section input{
+    margin-left: 5px;
+
+}
+
+.second-section input[type="text"], .second-section textarea{
+    width: 98%;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    border: 0;
+}
+
+.block{
+    display: float;
+    float: left;
+    width: 33.3%;
+    padding: 0px 10px 0 10px;
+    margin-top: 20px;
+    border: 1px solid gray
+}
+
